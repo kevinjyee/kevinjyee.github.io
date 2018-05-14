@@ -300,8 +300,8 @@ a {
 
 #intro-buttons {
     display: flex;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 44%;
+    margin-right: 44%;
     margin-top: 50px;
     justify-content: space-around;
 }
