@@ -306,6 +306,24 @@ a {
     justify-content: space-around;
 }
 
+@media (max-width: 699px) {
+    #intro-container {
+        width: 260px;
+    }
+
+    #name{
+        font-size: 25px;
+    }
+
+    #desc{
+        font-size:31px;
+    }
+
+    #tagline {
+        font-size: 35px;
+    }
+
+}
 /* =============================================================================
    ABOUT SECTION
    ========================================================================== */
