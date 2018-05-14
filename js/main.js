@@ -8,3 +8,6 @@ $(function () {
         loop: true
     });
 });
+
+window.sr = ScrollReveal({ reset: true });
+sr.reveal('.section-title', { duration: 3000 });

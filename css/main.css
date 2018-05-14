@@ -194,6 +194,31 @@ textarea {
     --darkBlue:#307982;
     --darkestBlue:#215961;
 }
+
+/* =============================================================================
+   SECTION FORMATTING
+   ========================================================================== */
+
+section{
+    width: 100%;
+    height: 100vh;
+    text-align:center;
+    padding-top:90px;
+    padding-bottom:50px;
+
+}
+
+
+.section-title {
+    border-bottom: 10px solid #263238;
+    display: inline-block;
+    font-size:44px;
+    margin-bottom: 50px;
+    padding-bottom:10px;
+    text-transform:uppercase;
+    letter-spacing: 4px;
+}
+
 /* =============================================================================
    INTRO SECTION
    ========================================================================== */
@@ -208,12 +233,33 @@ canvas {
     vertical-align: bottom;
 }
 
+a {
+    color: #4d638c;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    line-height: 20px;
+}
+
+#nav {
+    height: 50px;
+    padding: 15px 15px;
+    float: right;
+    margin-right: -15px;
+}
+
 #intro-container {
     position:absolute;
     left:50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    width:1100px;
+    width:100%;
 }
 
 #particles-js {
@@ -223,11 +269,6 @@ canvas {
     filter: brightness(0) invert(0.9);
 }
 
-
-#intro {
-    height: 100%;
-    width: 100%;
-}
 
 #name {
     font-size: 30px;
@@ -257,7 +298,7 @@ canvas {
     margin-top: 10px;
 }
 
-#intro-buttons{
+#intro-buttons {
     display: flex;
     margin-left: 400px;
     margin-right: 400px;
@@ -265,7 +306,19 @@ canvas {
     justify-content: space-around;
 }
 
+/* =============================================================================
+   ABOUT SECTION
+   ========================================================================== */
 
+#landing-image {
+    padding-top: 60px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+
+}
 
 /* ==========================================================================
    Helper classes
