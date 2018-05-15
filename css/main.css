@@ -396,7 +396,7 @@ a {
 
 }
 
-@media screen and (min-width: 600px) and (max-width: 1000px) {
+@media (min-width: 600px)  {
     #scroll-wrapper {
 
         width: 400px;
@@ -414,50 +414,8 @@ a {
         transition: margin-top 1s ease-in-out;
     }
 
-    #box-container {
-
-        padding: 10px;
-        position:absolute;
-        width:100%;
-        height:100%;
-    }
-
-    #about-container {
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-template-rows: auto;
-        width: 70%;
-        height: 70%;
-        box-sizing: content-box;
-        -webkit-box-shadow: 0 0 5px 2px #4b5859;
-        -moz-box-shadow: 0 0 5px 2px #4b5859;
-        box-shadow: 0 0 5px 2px #4b5859 ;
-        margin: auto;
-        justify-items: center;
-        align-items: center;
-
-    }
-
-    #about-me {
-        background: white;
-        width: 30%;
-    }
-
-    #image-wrapper {
-        position: relative;
-        width: 70%;
-        max-width: 70%;
-        margin-left: 40%;
-    }
-
-    .personal-image {
-        padding-top: 0px;
-        width: 70%;
-
-    }
-
 }
-@media screen and (max-width: 599px) {
+@media (min-width: 599px) {
     #scroll-wrapper {
 
         width: 100px;
@@ -472,6 +430,25 @@ a {
 
     .roles div {
         height: 50px;
+        transition: margin-top 1s ease-in-out;
+    }
+
+}
+
+@media(min-width: 399px) {
+    #scroll-wrapper {
+
+        width: 399px;
+    }
+
+    .roles {
+        font-size: 4.5vw;
+        height: 100px;
+        font-weight: 100;
+        font-family: Helvetica;
+    }
+
+    .roles div {
         transition: margin-top 1s ease-in-out;
     }
 
