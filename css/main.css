@@ -396,14 +396,14 @@ a {
 
 }
 
-@media (max-width: 699px) {
+@media (max-width: 1000px) {
     #scroll-wrapper {
 
-        width: 50px;
+        width: 250px;
     }
 
     .roles {
-        font-size: 14px;
+        font-size: 1.5vw;
         height: 50px;
         font-weight: 100;
         font-family: Helvetica;
