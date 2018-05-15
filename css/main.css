@@ -393,6 +393,73 @@ a {
     width: 70%;
 
 }
+
+@media (max-width: 699px) {
+    #scroll-wrapper {
+
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        width: 50px;
+    }
+
+    .roles {
+        font-size: 14px;
+        height: 50px;
+        font-weight: 100;
+        letter-spacing: 1px;
+        vertical-align: middle;
+        overflow: hidden;
+        font-family: Helvetica;
+    }
+
+    .roles div {
+        height: 50px;
+        transition: margin-top 1s ease-in-out;
+    }
+
+    #box-container {
+
+        padding: 10px;
+        position:absolute;
+        width:100%;
+        height:100%;
+    }
+    #about-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+        width: 70%;
+        height: 70%;
+        box-sizing: content-box;
+        -webkit-box-shadow: 0 0 5px 2px #4b5859;
+        -moz-box-shadow: 0 0 5px 2px #4b5859;
+        box-shadow: 0 0 5px 2px #4b5859 ;
+        margin: auto;
+        justify-items: center;
+        align-items: center;
+
+    }
+
+    #about-me {
+        background: white;
+        width: 30%;
+    }
+
+    #image-wrapper {
+        position: relative;
+        width: 70%;
+        max-width: 70%;
+        margin-left: 40%;
+    }
+
+    .personal-image {
+        padding-top: 0px;
+        width: 70%;
+
+    }
+
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
