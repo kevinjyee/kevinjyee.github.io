@@ -396,45 +396,6 @@ a {
 
 }
 
-@media (min-width: 600px)  {
-    #scroll-wrapper {
-
-        width: 400px;
-    }
-
-    .roles {
-        font-size: 2.5vw;
-        height: 50px;
-        font-weight: 100;
-        font-family: Helvetica;
-    }
-
-    .roles div {
-        height: 50px;
-        transition: margin-top 1s ease-in-out;
-    }
-
-}
-@media (min-width: 599px) {
-    #scroll-wrapper {
-
-        width: 100px;
-    }
-
-    .roles {
-        font-size: 2.5vw;
-        height: 50px;
-        font-weight: 100;
-        font-family: Helvetica;
-    }
-
-    .roles div {
-        height: 50px;
-        transition: margin-top 1s ease-in-out;
-    }
-
-}
-
 @media(min-width: 399px) {
     #scroll-wrapper {
 
@@ -442,7 +403,7 @@ a {
     }
 
     .roles {
-        font-size: 4.5vw;
+        font-size: 1.5vw;
         height: 100px;
         font-weight: 100;
         font-family: Helvetica;
